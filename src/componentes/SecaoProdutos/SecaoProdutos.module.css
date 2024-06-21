@@ -1,0 +1,48 @@
+.containerProdutos{
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    color: #000000;
+}
+
+.containerProdutos h2{
+    font-size: 2em;
+}
+
+.containerProdutos ul{
+    list-style-position: inside;
+    font-size: 17px;
+}
+
+.containerOculos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    max-width: 1024px;
+    gap: 20px;
+    margin: 20px auto; 
+}
+
+.containerCards{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 400px;
+    padding: 20px 10px;
+    gap: 20px;
+    box-shadow: 2px 2px 20px -4px #000000;
+    background-color: #F6F6F6;
+}
+
+.containerCards h3{
+    font-size: 1.8em;
+}
+
+.containerCards img{
+    width: 180px;
+}
+
+.containerCards > p{
+    font-size: 1.2em;
+    font-weight: bold;
+}

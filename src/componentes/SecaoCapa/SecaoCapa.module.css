@@ -1,0 +1,26 @@
+.secaoCapa img {
+  height: 88vh;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+
+.textoCapa {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30%;
+  right: 50%;
+}
+
+.textoCapa p {
+  color: #c4c4c4;
+  font-size: 2em;
+}
+
+.textoCapa h1 {
+  color: #fff;
+  font-size: 4.5em;
+  margin: 0;
+}
